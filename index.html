@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Web Design: Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1 id="title"><a href="https://freecodecamp.org/learn" class="freecodecamp">freeCodeCamp</a> Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form"/>
+        <label for="name" id="name-label">name *
+            <input id="name" type="text" placeholder="name" required/>
+        </label>
+        <label for="email" id="email-label">email*
+            <input id="email" type="email" placeholder="email" required />
+        </label>
+        <label for="number" id="number-input">age
+            <input id="number" type="number" placeholder="age" min="0" max="122"/>
+        </label>
+        <h5>current job</h5>
+        <select id="dropdown">
+            <option>select one</option>
+            <option>boss</option>
+            <option>employee</option>
+            <option>baby</option>
+            <option>other</option>
+        </select>
+        <p>would you recommend freecodecamp to others</p>
+        <label for="radio1">definitely<input type="radio" name="radio" id="radio1">
+        <label for="radio2">maybe<input type="radio" name="radio" id="radio2"></label>
+        <label for="radio3">not sure<input type="radio" name="radio" id="radio3"></label>
+        <p>Any comments or suggestions?</p>
+        <textarea placeholder="Enter your comment here..."></textarea>
+        <button id="submit" type="submit">submit</button>
+    </form>
+</body>
+</html>

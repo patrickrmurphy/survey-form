@@ -16,7 +16,7 @@
         <label for="email" id="email-label">email*
             <input id="email" type="email" placeholder="email" required />
         </label>
-        <label for="number" id="number-input">age
+        <label for="number" id="number-label">age
             <input id="number" type="number" placeholder="age" min="0" max="122"/>
         </label>
         <h5>current job</h5>
@@ -28,9 +28,12 @@
             <option>other</option>
         </select>
         <p>would you recommend freecodecamp to others</p>
-        <label for="radio1">definitely<input type="radio" name="radio" id="radio1">
-        <label for="radio2">maybe<input type="radio" name="radio" id="radio2"></label>
-        <label for="radio3">not sure<input type="radio" name="radio" id="radio3"></label>
+        <label for="radio1">definitely<input value="definitely" type="radio" name="radio" id="radio1" checked>
+        <label for="radio2">maybe<input value="maybe" type="radio" name="radio" id="radio2"></label>
+        <label for="radio3">not sure<input value="not sure" type="radio" name="radio" id="radio3"></label>
+        <label for="front-end-projects"><input type="checkbox" value="checkbox1" id="front-end-projects"/>Front-end Projects</label>
+        <label for="back-end-projects"><input type="checkbox" value="checkbox2" id="back-end-projects"/>Back-end Projects</label>
+        <label for="everything"><input type="checkbox" value="checkbox3" id="everything"/>Everything</label>
         <p>Any comments or suggestions?</p>
         <textarea placeholder="Enter your comment here..."></textarea>
         <button id="submit" type="submit">submit</button>
